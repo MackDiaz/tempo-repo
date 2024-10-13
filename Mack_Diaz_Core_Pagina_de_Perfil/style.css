@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(58, 58, 58);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.navbar h1, li a, h2 {
+    color: white;
+}
+
+#navbar_links>ul,#navbar_links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar_links>button {
+    height: 35px;
+    width: 110px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#navbar_links ul a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+.cv {
+    flex: 7;
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
+
+#resume {
+    margin: 15px 15px 0px 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px gray;
+}
+
+#education {
+    margin: 0px 15px 15px 15px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px gray;
+    padding: 10px 30px 20px 30px;
+}
+
+#requests, #connections {
+    margin: 0px 0px 15px 0px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px gray;
+}
+
+#color_nav {
+    background-color:red;
+    height: 95px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#edit_profile a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.others {
+    flex: 4;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+
+.others #requests,
+.others #connections {
+    padding: 15px 25px 5px 25px;
+}
+
+.others #requests>*,
+.others #connections>* { 
+    padding-bottom: 20px;
+}
+
+.profile_solitude {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile_solitude h4 {
+    font-weight: normal;
+}
+
+.profile_connection h4 {
+    font-weight: normal;
+    margin-left: 23px;
+}
+
+.profile_solitude img{
+    height: 35px;
+    width: 35px;
+}
+
+.profile_solitude img[alt="check"],img[alt="close"] {
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.profile_connection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 12px;
+}
+
+.profile_connection img{
+    height: 35px;
+    width: 35px;
+}
+
+#foto_gato {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    border: 3px solid white;
+}
+
+#resume_texts {
+    padding: 10px 30px 20px 30px;
+}
+
+#resume_texts h1,h4,
+#education h2 {
+    margin-bottom: 15px;
+}
+
+#education h4, #resume_texts h4 {
+    font-weight: normal;
+}
+
+#div_cat {
+    height: 95px;
+}
+
+#edit_profile {
+    margin: 5px 30px 40px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#config_icon {
+    margin-right: 6px;
+}
